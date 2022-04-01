@@ -1,0 +1,38 @@
+@media (prefers-color-scheme: dark) {
+a.button {
+    background-color:#32373C;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    border-radius:25px;
+    border:2px solid white;
+}
+}
+a.button {
+	display:inline-block;
+	background-color:#32373C;
+	color:white;
+    padding: 8px 20px;
+	margin:5px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+	border-radius:25px;
+	border:2px solid black;
+}
+
+body{
+	background:transparent; 
+	margin:0;
+	padding:0;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	text-align:center;
+}
+@media(max-width:800px){
+.logo{padding-top:10%; width:75%;}
+}
+@media(min-width:800px){
+    .logo{padding-top:5%;width:35%;}
+}
+.padding{margin:20%;}

@@ -1,0 +1,5 @@
+{{ define "main" }}
+        <img class="logo" src="/images/logo.png"/><br>
+        <b>Click this link to continue</b><br>
+        {{ if ".Params.link"}}<a class="button padding" href="{{.Params.link}}">{{.Params.title}}</a>{{end}}
+{{end}}
